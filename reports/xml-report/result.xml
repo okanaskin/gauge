@@ -1,0 +1,27 @@
+<testsuites>
+	<testsuite id="1" tests="1" failures="0" package="C:\Users\okan\IdeaProjects\MobilOtomasyon\specs\Case_03.spec" time="94.537" timestamp="2021-09-22T11:00:48" name="Case_03" errors="0" hostname="DESKTOP-FG2EP6A">
+		<properties></properties>
+		<testcase classname="Case_03" name="MainPage_Date" time="94.537"></testcase>
+		<system-out></system-out>
+		<system-err></system-err>
+	</testsuite>
+	<testsuite id="2" tests="1" failures="0" package="C:\Users\okan\IdeaProjects\MobilOtomasyon\specs\Case_04.spec" time="57.398" timestamp="2021-09-22T11:00:48" name="Case_04" errors="0" hostname="DESKTOP-FG2EP6A">
+		<properties></properties>
+		<testcase classname="Case_04" name="Check_the_Stores" time="57.398"></testcase>
+		<system-out></system-out>
+		<system-err></system-err>
+	</testsuite>
+	<testsuite id="3" tests="1" failures="0" package="C:\Users\okan\IdeaProjects\MobilOtomasyon\specs\Case_01.spec" time="41.987" timestamp="2021-09-22T11:00:48" name="Case_01" errors="0" hostname="DESKTOP-FG2EP6A">
+		<properties></properties>
+		<testcase classname="Case_01" name="SignUp_Case" time="41.987"></testcase>
+		<system-out></system-out>
+		<system-err></system-err>
+	</testsuite>
+	<testsuite id="4" tests="2" failures="0" package="C:\Users\okan\IdeaProjects\MobilOtomasyon\specs\Case_02.spec" time="63.555" timestamp="2021-09-22T11:00:48" name="Case_02" errors="0" hostname="DESKTOP-FG2EP6A">
+		<properties></properties>
+		<testcase classname="Case_02" name="Login_Case" time="32.059"></testcase>
+		<testcase classname="Case_02" name="Fail_Login_Case" time="31.496"></testcase>
+		<system-out></system-out>
+		<system-err></system-err>
+	</testsuite>
+</testsuites>

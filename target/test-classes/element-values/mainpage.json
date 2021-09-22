@@ -1,0 +1,48 @@
+[
+  {
+    "key": "Trendyol_dateBar",
+    "androidValue": "com.example.qaotomation:id/overlayDatePicker",
+    "androidType": "id"
+  },
+  {
+    "key": "Trendyol_headerYear",
+    "androidValue": "android:id/date_picker_header_year",
+    "androidType": "id"
+  },
+  {
+    "key": "Trendyol_year_1980",
+    "androidValue": "//android.widget.TextView[@text='1980']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "Trendyol_year_3Nov1980",
+    "androidValue": "//android.view.View[@content-desc='03 November 1980']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "Trendyol_OK_Btn",
+    "androidValue": "android:id/button1",
+    "androidType": "id"
+  },
+  {
+    "key": "Trendyol_3_11_1980",
+    "androidValue": "//android.widget.EditText[@text='03/11/1980' and @resource-id='com.example.qaotomation:id/editTextDatePicker']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "Trendyol_store_picture",
+    "androidValue": "com.example.qaotomation:id/imageViewItem",
+    "androidType": "id"
+  },
+  {
+    "key": "Trendyol_garajSale",
+    "androidValue": "//android.widget.TextView[@text='Garaj Sale' and @resource-id='com.example.qaotomation:id/textViewCaption']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "Trendyol_alacati",
+    "androidValue": "//android.widget.TextView[@text='Alaçatı' and @resource-id='com.example.qaotomation:id/textViewCaption']",
+    "androidType": "xpath"
+  }
+
+]

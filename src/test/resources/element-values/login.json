@@ -1,0 +1,54 @@
+[
+  {
+    "key": "Trendyol_APP",
+    "androidValue": "//android.widget.TextView[@content-desc='Trendyol']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "btn",
+    "androidValue": "com.example.qaotomation:id/imageViewTrendyol",
+    "androidType": "id"
+  },
+  {
+    "key": "Trendyol_girisBtn",
+    "androidValue": "com.example.qaotomation:id/buttonLogin",
+    "androidType": "id"
+  },
+  {
+    "key": "Trendyol_kayitOlBtn",
+    "androidValue": "com.example.qaotomation:id/buttonSignup",
+    "androidType": "id"
+  },
+  {
+    "key": "Trendyol_emailBtn",
+    "androidValue": "com.example.qaotomation:id/editTextEmail",
+    "androidType": "id"
+  },
+  {
+    "key": "Trendyol_psswrdBtn",
+    "androidValue": "com.example.qaotomation:id/editTextPassword",
+    "androidType": "id"
+  },
+  {
+    "key": "Trendyol_psswrdBtn2",
+    "androidValue": "com.example.qaotomation:id/editTextRePassword",
+    "androidType": "id"
+  },
+  {
+    "key": "Trendyol_kayıtOlUserBtn",
+    "androidValue": "com.example.qaotomation:id/buttonSignupUser",
+    "androidType": "id"
+  },
+  {
+    "key": "Trendyol_girisUserBtn",
+    "androidValue": "com.example.qaotomation:id/buttonLoginUser",
+    "androidType": "id"
+  },
+  {
+    "key": "Trendyol_hataMsg",
+    "androidValue": "//android.widget.TextView[@text='Email veya şifre yanlış.']",
+    "androidType": "xpath"
+  }
+
+
+]

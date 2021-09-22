@@ -1,0 +1,2572 @@
+{
+	"projectName": "MobilOtomasyon",
+	"timestamp": "Sep 22, 2021 at 10:56am",
+	"successRate": 100,
+	"environment": "default",
+	"tags": "",
+	"executionTime": 260235,
+	"executionStatus": "passed",
+	"specResults": [
+		{
+			"specHeading": "Case_03",
+			"fileName": "C:\\Users\\okan\\IdeaProjects\\MobilOtomasyon\\specs\\Case_03.spec",
+			"tags": [],
+			"executionTime": 94537,
+			"executionStatus": "passed",
+			"scenarios": [
+				{
+					"scenarioHeading": "MainPage_Date",
+					"tags": [],
+					"executionTime": 94537,
+					"executionStatus": "passed",
+					"contexts": [],
+					"teardowns": [],
+					"items": [
+						{
+							"itemType": "step",
+							"stepText": "Wait \"2\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "2",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 2009,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "concept",
+							"conceptStep": {
+								"itemType": "step",
+								"stepText": "Sign In with email and password \u003cemail\u003e \u003cpassword\u003e",
+								"parameters": [
+									{
+										"parameterType": "static",
+										"name": "",
+										"value": "hwid.turkey@gmail.com",
+										"table": null
+									},
+									{
+										"parameterType": "static",
+										"name": "",
+										"value": "Admin13!",
+										"table": null
+									}
+								],
+								"table": null,
+								"beforeStepHookFailure": null,
+								"beforeStepHookMessages": [],
+								"afterStepHookFailure": null,
+								"afterStepHookMessages": [],
+								"result": {
+									"status": "passed",
+									"stackTrace": "",
+									"screenshot": "",
+									"errorMessage": "",
+									"executionTime": 8755,
+									"skippedReason": "",
+									"messages": [],
+									"errorType": "assertion",
+									"ScreenshotFile": ""
+								}
+							},
+							"items": [
+								{
+									"itemType": "step",
+									"stepText": "Click element by \"Trendyol_girisBtn\"",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "Trendyol_girisBtn",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 180,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								},
+								{
+									"itemType": "step",
+									"stepText": "Wait \"1\" seconds",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "1",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 1007,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								},
+								{
+									"itemType": "step",
+									"stepText": "Click element by \"Trendyol_emailBtn\"",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "Trendyol_emailBtn",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 170,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								},
+								{
+									"itemType": "step",
+									"stepText": "Wait \"1\" seconds",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "1",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 1015,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								},
+								{
+									"itemType": "step",
+									"stepText": "Find element by \"Trendyol_emailBtn\" and send keys \u003cemail\u003e",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "Trendyol_emailBtn",
+											"table": null
+										},
+										{
+											"parameterType": "dynamic",
+											"name": "email",
+											"value": "hwid.turkey@gmail.com",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 1120,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								},
+								{
+									"itemType": "step",
+									"stepText": "Wait \"1\" seconds",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "1",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 1014,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								},
+								{
+									"itemType": "step",
+									"stepText": "Click element by \"Trendyol_psswrdBtn\"",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "Trendyol_psswrdBtn",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 77,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								},
+								{
+									"itemType": "step",
+									"stepText": "Wait \"1\" seconds",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "1",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 1003,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								},
+								{
+									"itemType": "step",
+									"stepText": "Find element by \"Trendyol_psswrdBtn\" and send keys \u003cpassword\u003e",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "Trendyol_psswrdBtn",
+											"table": null
+										},
+										{
+											"parameterType": "dynamic",
+											"name": "password",
+											"value": "Admin13!",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 1215,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								},
+								{
+									"itemType": "step",
+									"stepText": "Wait \"1\" seconds",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "1",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 1015,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								},
+								{
+									"itemType": "step",
+									"stepText": "Click element by \"Trendyol_girisUserBtn\"",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "Trendyol_girisUserBtn",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 120,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								},
+								{
+									"itemType": "step",
+									"stepText": "Does \"Trendyol_dateBar\" element Exist",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "Trendyol_dateBar",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 819,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								}
+							],
+							"result": {
+								"status": "",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": null,
+								"errorType": "",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Set the date",
+							"parameters": [],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 64360,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Does \"Trendyol_3_11_1980\" element Exist",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_3_11_1980",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 162,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						}
+					],
+					"beforeScenarioHookFailure": null,
+					"beforeScenarioHookMessages": [],
+					"afterScenarioHookFailure": null,
+					"afterScenarioHookMessages": [],
+					"skipErrors": [],
+					"tableRowIndex": -1
+				}
+			],
+			"isTableDriven": false,
+			"datatable": null,
+			"beforeSpecHookFailure": null,
+			"beforeSpecHookMessages": [],
+			"afterSpecHookFailure": null,
+			"afterSpecHookMessages": [],
+			"passedScenarioCount": 1,
+			"failedScenarioCount": 0,
+			"skippedScenarioCount": 0
+		},
+		{
+			"specHeading": "Case_04",
+			"fileName": "C:\\Users\\okan\\IdeaProjects\\MobilOtomasyon\\specs\\Case_04.spec",
+			"tags": [],
+			"executionTime": 57398,
+			"executionStatus": "passed",
+			"scenarios": [
+				{
+					"scenarioHeading": "Check_the_Stores",
+					"tags": [],
+					"executionTime": 57398,
+					"executionStatus": "passed",
+					"contexts": [],
+					"teardowns": [],
+					"items": [
+						{
+							"itemType": "step",
+							"stepText": "Wait \"2\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "2",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 2008,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "concept",
+							"conceptStep": {
+								"itemType": "step",
+								"stepText": "Sign In with email and password \u003cemail\u003e \u003cpassword\u003e",
+								"parameters": [
+									{
+										"parameterType": "static",
+										"name": "",
+										"value": "hwid.turkey@gmail.com",
+										"table": null
+									},
+									{
+										"parameterType": "static",
+										"name": "",
+										"value": "Admin13!",
+										"table": null
+									}
+								],
+								"table": null,
+								"beforeStepHookFailure": null,
+								"beforeStepHookMessages": [],
+								"afterStepHookFailure": null,
+								"afterStepHookMessages": [],
+								"result": {
+									"status": "passed",
+									"stackTrace": "",
+									"screenshot": "",
+									"errorMessage": "",
+									"executionTime": 9891,
+									"skippedReason": "",
+									"messages": [],
+									"errorType": "assertion",
+									"ScreenshotFile": ""
+								}
+							},
+							"items": [
+								{
+									"itemType": "step",
+									"stepText": "Click element by \"Trendyol_girisBtn\"",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "Trendyol_girisBtn",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 231,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								},
+								{
+									"itemType": "step",
+									"stepText": "Wait \"1\" seconds",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "1",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 1006,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								},
+								{
+									"itemType": "step",
+									"stepText": "Click element by \"Trendyol_emailBtn\"",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "Trendyol_emailBtn",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 735,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								},
+								{
+									"itemType": "step",
+									"stepText": "Wait \"1\" seconds",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "1",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 1009,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								},
+								{
+									"itemType": "step",
+									"stepText": "Find element by \"Trendyol_emailBtn\" and send keys \u003cemail\u003e",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "Trendyol_emailBtn",
+											"table": null
+										},
+										{
+											"parameterType": "dynamic",
+											"name": "email",
+											"value": "hwid.turkey@gmail.com",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 1123,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								},
+								{
+									"itemType": "step",
+									"stepText": "Wait \"1\" seconds",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "1",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 1005,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								},
+								{
+									"itemType": "step",
+									"stepText": "Click element by \"Trendyol_psswrdBtn\"",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "Trendyol_psswrdBtn",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 77,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								},
+								{
+									"itemType": "step",
+									"stepText": "Wait \"1\" seconds",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "1",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 1007,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								},
+								{
+									"itemType": "step",
+									"stepText": "Find element by \"Trendyol_psswrdBtn\" and send keys \u003cpassword\u003e",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "Trendyol_psswrdBtn",
+											"table": null
+										},
+										{
+											"parameterType": "dynamic",
+											"name": "password",
+											"value": "Admin13!",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 1705,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								},
+								{
+									"itemType": "step",
+									"stepText": "Wait \"1\" seconds",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "1",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 1015,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								},
+								{
+									"itemType": "step",
+									"stepText": "Click element by \"Trendyol_girisUserBtn\"",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "Trendyol_girisUserBtn",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 147,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								},
+								{
+									"itemType": "step",
+									"stepText": "Does \"Trendyol_dateBar\" element Exist",
+									"parameters": [
+										{
+											"parameterType": "static",
+											"name": "",
+											"value": "Trendyol_dateBar",
+											"table": null
+										}
+									],
+									"table": null,
+									"beforeStepHookFailure": null,
+									"beforeStepHookMessages": [],
+									"afterStepHookFailure": null,
+									"afterStepHookMessages": [],
+									"result": {
+										"status": "passed",
+										"stackTrace": "",
+										"screenshot": "",
+										"errorMessage": "",
+										"executionTime": 831,
+										"skippedReason": "",
+										"messages": [],
+										"errorType": "assertion",
+										"ScreenshotFile": ""
+									}
+								}
+							],
+							"result": {
+								"status": "",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": null,
+								"errorType": "",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Does \"Trendyol_store_picture\" element Exist",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_store_picture",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 82,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Does \"Trendyol_garajSale\" element Exist",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_garajSale",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 222,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Swipe up \"4\" times",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "4",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 25796,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Does \"Trendyol_store_picture\" element Exist",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_store_picture",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 97,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Does \"Trendyol_alacati\" element Exist",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_alacati",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 204,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						}
+					],
+					"beforeScenarioHookFailure": null,
+					"beforeScenarioHookMessages": [],
+					"afterScenarioHookFailure": null,
+					"afterScenarioHookMessages": [],
+					"skipErrors": [],
+					"tableRowIndex": -1
+				}
+			],
+			"isTableDriven": false,
+			"datatable": null,
+			"beforeSpecHookFailure": null,
+			"beforeSpecHookMessages": [],
+			"afterSpecHookFailure": null,
+			"afterSpecHookMessages": [],
+			"passedScenarioCount": 1,
+			"failedScenarioCount": 0,
+			"skippedScenarioCount": 0
+		},
+		{
+			"specHeading": "Case_01",
+			"fileName": "C:\\Users\\okan\\IdeaProjects\\MobilOtomasyon\\specs\\Case_01.spec",
+			"tags": [],
+			"executionTime": 41987,
+			"executionStatus": "passed",
+			"scenarios": [
+				{
+					"scenarioHeading": "SignUp_Case",
+					"tags": [],
+					"executionTime": 41987,
+					"executionStatus": "passed",
+					"contexts": [],
+					"teardowns": [],
+					"items": [
+						{
+							"itemType": "step",
+							"stepText": "Wait \"3\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "3",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 3009,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Does \"btn\" element Exist",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "btn",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 358,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Click element by \"Trendyol_kayitOlBtn\"",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_kayitOlBtn",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 179,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Wait \"1\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1001,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Click element by \"Trendyol_emailBtn\"",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_emailBtn",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 166,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Wait \"1\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1004,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Find element by \"Trendyol_emailBtn\" and send keys \"hwid.turkey@gmail.com\"",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_emailBtn",
+									"table": null
+								},
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "hwid.turkey@gmail.com",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 626,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Wait \"1\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1003,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Click element by \"Trendyol_psswrdBtn\"",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_psswrdBtn",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 578,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Wait \"1\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1007,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Find element by \"Trendyol_psswrdBtn\" and send keys \"Admin13!\"",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_psswrdBtn",
+									"table": null
+								},
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Admin13!",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1207,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Wait \"1\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1010,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Click element by \"Trendyol_psswrdBtn2\"",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_psswrdBtn2",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 139,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Wait \"1\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1005,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Find element by \"Trendyol_psswrdBtn2\" and send keys \"Admin13!\"",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_psswrdBtn2",
+									"table": null
+								},
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Admin13!",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1223,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Wait \"1\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1009,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Click element by \"Trendyol_kayıtOlUserBtn\"",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_kayıtOlUserBtn",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 163,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						}
+					],
+					"beforeScenarioHookFailure": null,
+					"beforeScenarioHookMessages": [],
+					"afterScenarioHookFailure": null,
+					"afterScenarioHookMessages": [],
+					"skipErrors": [],
+					"tableRowIndex": -1
+				}
+			],
+			"isTableDriven": false,
+			"datatable": null,
+			"beforeSpecHookFailure": null,
+			"beforeSpecHookMessages": [],
+			"afterSpecHookFailure": null,
+			"afterSpecHookMessages": [],
+			"passedScenarioCount": 1,
+			"failedScenarioCount": 0,
+			"skippedScenarioCount": 0
+		},
+		{
+			"specHeading": "Case_02",
+			"fileName": "C:\\Users\\okan\\IdeaProjects\\MobilOtomasyon\\specs\\Case_02.spec",
+			"tags": [],
+			"executionTime": 63555,
+			"executionStatus": "passed",
+			"scenarios": [
+				{
+					"scenarioHeading": "Login_Case",
+					"tags": [],
+					"executionTime": 32059,
+					"executionStatus": "passed",
+					"contexts": [],
+					"teardowns": [],
+					"items": [
+						{
+							"itemType": "step",
+							"stepText": "Wait \"3\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "3",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 3014,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Does \"btn\" element Exist",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "btn",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 105,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Click element by \"Trendyol_girisBtn\"",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_girisBtn",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 129,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Wait \"1\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1007,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Click element by \"Trendyol_emailBtn\"",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_emailBtn",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 146,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Wait \"1\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1005,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Find element by \"Trendyol_emailBtn\" and send keys \"hwid.turkey@gmail.com\"",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_emailBtn",
+									"table": null
+								},
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "hwid.turkey@gmail.com",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1116,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Wait \"1\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1013,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Click element by \"Trendyol_psswrdBtn\"",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_psswrdBtn",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 93,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Wait \"1\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1006,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Find element by \"Trendyol_psswrdBtn\" and send keys \"Admin13!\"",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_psswrdBtn",
+									"table": null
+								},
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Admin13!",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1201,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Wait \"1\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1008,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Click element by \"Trendyol_girisUserBtn\"",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_girisUserBtn",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 636,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Wait \"1\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1012,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Does \"Trendyol_dateBar\" element Exist",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_dateBar",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 210,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						}
+					],
+					"beforeScenarioHookFailure": null,
+					"beforeScenarioHookMessages": [],
+					"afterScenarioHookFailure": null,
+					"afterScenarioHookMessages": [],
+					"skipErrors": [],
+					"tableRowIndex": -1
+				},
+				{
+					"scenarioHeading": "Fail_Login_Case",
+					"tags": [],
+					"executionTime": 31496,
+					"executionStatus": "passed",
+					"contexts": [],
+					"teardowns": [],
+					"items": [
+						{
+							"itemType": "step",
+							"stepText": "Wait \"3\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "3",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 3009,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Does \"btn\" element Exist",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "btn",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 112,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Click element by \"Trendyol_girisBtn\"",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_girisBtn",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 155,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Wait \"1\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1002,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Click element by \"Trendyol_emailBtn\"",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_emailBtn",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 165,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Wait \"1\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1015,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Find element by \"Trendyol_emailBtn\" and send keys \"de.support@gmail.com\"",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_emailBtn",
+									"table": null
+								},
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "de.support@gmail.com",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 624,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Wait \"1\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1014,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Click element by \"Trendyol_psswrdBtn\"",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_psswrdBtn",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 93,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Wait \"1\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1005,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Find element by \"Trendyol_psswrdBtn\" and send keys \"Admin13!\"",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_psswrdBtn",
+									"table": null
+								},
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Admin13!",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1215,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Wait \"1\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1015,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Click element by \"Trendyol_girisUserBtn\"",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_girisUserBtn",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 161,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Wait \"1\" seconds",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1002,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Does \"Trendyol_hataMsg\" element Exist",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Trendyol_hataMsg",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"beforeStepHookMessages": [],
+							"afterStepHookFailure": null,
+							"afterStepHookMessages": [],
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 293,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						}
+					],
+					"beforeScenarioHookFailure": null,
+					"beforeScenarioHookMessages": [],
+					"afterScenarioHookFailure": null,
+					"afterScenarioHookMessages": [],
+					"skipErrors": [],
+					"tableRowIndex": -1
+				}
+			],
+			"isTableDriven": false,
+			"datatable": null,
+			"beforeSpecHookFailure": null,
+			"beforeSpecHookMessages": [],
+			"afterSpecHookFailure": null,
+			"afterSpecHookMessages": [],
+			"passedScenarioCount": 2,
+			"failedScenarioCount": 0,
+			"skippedScenarioCount": 0
+		}
+	],
+	"beforeSuiteHookFailure": null,
+	"beforeSuiteHookMessages": [],
+	"afterSuiteHookFailure": null,
+	"afterSuiteHookMessages": [],
+	"passedSpecsCount": 4,
+	"failedSpecsCount": 0,
+	"skippedSpecsCount": 0,
+	"passedScenariosCount": 5,
+	"failedScenariosCount": 0,
+	"skippedScenariosCount": 0
+}

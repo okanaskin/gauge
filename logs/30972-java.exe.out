@@ -1,0 +1,187 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (org.reflections.Reflections).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 2174milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2174"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 64615"}
+{"logLevel":"info","message":"Listening on port:64615"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.sendKeysByKey' and 'com.mobil.otomasyon.StepImpl.sendKeysByKey'"}
+{"logLevel":"debug","message":"Found Find element by {} and send keys {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.doesExistElement' and 'com.mobil.otomasyon.StepImpl.doesExistElement'"}
+{"logLevel":"debug","message":"Found Does {} element Exist in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.waitBySecond' and 'com.mobil.otomasyon.StepImpl.waitBySecond'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.waitBySecond' and 'com.mobil.otomasyon.StepImpl.waitBySecond'"}
+{"logLevel":"debug","message":"Found Wait {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.swipeUp' and 'com.mobil.otomasyon.StepImpl.swipeUp'"}
+{"logLevel":"debug","message":"Found Swipe up {} times in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.clickByKey' and 'com.mobil.otomasyon.StepImpl.clickByKey'"}
+{"logLevel":"debug","message":"Found Click element by {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.androidHomeButton' and 'com.mobil.otomasyon.StepImpl.androidHomeButton'"}
+{"logLevel":"debug","message":"Found Go To Android Home in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.setTheDate' and 'com.mobil.otomasyon.StepImpl.setTheDate'"}
+{"logLevel":"debug","message":"Found Set the date in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tFind element by {} and send keys {} : public void sendKeysByKey(String key, String text)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitBySecond(ınt seconds)"}
+{"logLevel":"debug","message":"\tSwipe up {} times : public void swipeUp(ınt key)"}
+{"logLevel":"debug","message":"\tClick element by {} : public void clickByKey(String key)"}
+{"logLevel":"debug","message":"\tGo To Android Home : public void androidHomeButton() throws InterruptedException"}
+{"logLevel":"debug","message":"\tDoes {} element Exist : public void doesExistElement(String key)"}
+{"logLevel":"debug","message":"\tWait {} seconds : public void waitBySecond(ınt seconds)"}
+{"logLevel":"debug","message":"\tSet the date : public void setTheDate() throws InterruptedException"}
+!!!!!!!!!!!!!!!!!!!!!!!!!!!Test basliyor!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Eyl 22, 2021 10:56:42 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Does {} element Exist' using 'class com.mobil.otomasyon.StepImpl.doesExistElement"}
+element exists.
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_kayitOlBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_emailBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Find element by {} and send keys {}' using 'class com.mobil.otomasyon.StepImpl.sendKeysByKey"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_psswrdBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Find element by {} and send keys {}' using 'class com.mobil.otomasyon.StepImpl.sendKeysByKey"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_psswrdBtn2elementine tiklandi
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Find element by {} and send keys {}' using 'class com.mobil.otomasyon.StepImpl.sendKeysByKey"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_kayıtOlUserBtnelementine tiklandi
+!!!!!!!!!!!!!!!!!!!!!!!!!!!Test basliyor!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Eyl 22, 2021 10:57:17 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Does {} element Exist' using 'class com.mobil.otomasyon.StepImpl.doesExistElement"}
+element exists.
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_girisBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_emailBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Find element by {} and send keys {}' using 'class com.mobil.otomasyon.StepImpl.sendKeysByKey"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_psswrdBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Find element by {} and send keys {}' using 'class com.mobil.otomasyon.StepImpl.sendKeysByKey"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_girisUserBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Does {} element Exist' using 'class com.mobil.otomasyon.StepImpl.doesExistElement"}
+element exists.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!Test basliyor!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Eyl 22, 2021 10:57:49 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Does {} element Exist' using 'class com.mobil.otomasyon.StepImpl.doesExistElement"}
+element exists.
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_girisBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_emailBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Find element by {} and send keys {}' using 'class com.mobil.otomasyon.StepImpl.sendKeysByKey"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_psswrdBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Find element by {} and send keys {}' using 'class com.mobil.otomasyon.StepImpl.sendKeysByKey"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_girisUserBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Does {} element Exist' using 'class com.mobil.otomasyon.StepImpl.doesExistElement"}
+element exists.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!Test basliyor!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Eyl 22, 2021 10:58:21 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_girisBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_emailBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Find element by {} and send keys {}' using 'class com.mobil.otomasyon.StepImpl.sendKeysByKey"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_psswrdBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Find element by {} and send keys {}' using 'class com.mobil.otomasyon.StepImpl.sendKeysByKey"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_girisUserBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Does {} element Exist' using 'class com.mobil.otomasyon.StepImpl.doesExistElement"}
+element exists.
+{"logLevel":"debug","message":"Executing 'Set the date' using 'class com.mobil.otomasyon.StepImpl.setTheDate"}
+Trendyol_dateBarelementine tiklandi
+Trendyol_headerYearelementine tiklandi
+Trendyol_year_1980elementine tiklandi
+Trendyol_year_3Nov1980elementine tiklandi
+Trendyol_OK_Btnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Does {} element Exist' using 'class com.mobil.otomasyon.StepImpl.doesExistElement"}
+element exists.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!Test basliyor!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Eyl 22, 2021 10:59:55 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_girisBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_emailBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Find element by {} and send keys {}' using 'class com.mobil.otomasyon.StepImpl.sendKeysByKey"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_psswrdBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Find element by {} and send keys {}' using 'class com.mobil.otomasyon.StepImpl.sendKeysByKey"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_girisUserBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Does {} element Exist' using 'class com.mobil.otomasyon.StepImpl.doesExistElement"}
+element exists.
+{"logLevel":"debug","message":"Executing 'Does {} element Exist' using 'class com.mobil.otomasyon.StepImpl.doesExistElement"}
+element exists.
+{"logLevel":"debug","message":"Executing 'Does {} element Exist' using 'class com.mobil.otomasyon.StepImpl.doesExistElement"}
+element exists.
+{"logLevel":"debug","message":"Executing 'Swipe up {} times' using 'class com.mobil.otomasyon.StepImpl.swipeUp"}
+-----------------------------------------------------------------
+SWIPE EDILDI
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+SWIPE EDILDI
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+SWIPE EDILDI
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+SWIPE EDILDI
+-----------------------------------------------------------------
+{"logLevel":"debug","message":"Executing 'Does {} element Exist' using 'class com.mobil.otomasyon.StepImpl.doesExistElement"}
+element exists.
+{"logLevel":"debug","message":"Executing 'Does {} element Exist' using 'class com.mobil.otomasyon.StepImpl.doesExistElement"}
+element exists.

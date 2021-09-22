@@ -1,0 +1,17 @@
+Created by okan on 20.09.2021
+
+This is a concept file with following syntax for each concept.
+# Sign In with email and password <email> <password>
+
+* Click element by "Trendyol_girisBtn"
+* Wait "1" seconds
+* Click element by "Trendyol_emailBtn"
+* Wait "1" seconds
+* Find element by "Trendyol_emailBtn" and send keys <email>
+* Wait "1" seconds
+* Click element by "Trendyol_psswrdBtn"
+* Wait "1" seconds
+* Find element by "Trendyol_psswrdBtn" and send keys <password>
+* Wait "1" seconds
+* Click element by "Trendyol_girisUserBtn"
+* Does "Trendyol_dateBar" element Exist

@@ -1,0 +1,120 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (org.reflections.Reflections).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 1137milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1137"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 57999"}
+{"logLevel":"info","message":"Listening on port:57999"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.sendKeysByKey' and 'com.mobil.otomasyon.StepImpl.sendKeysByKey'"}
+{"logLevel":"debug","message":"Found Find element by {} and send keys {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.findByKeyWithSwipe' and 'com.mobil.otomasyon.StepImpl.findByKeyWithSwipe'"}
+{"logLevel":"debug","message":"Found {} li elementi bulana kadar swipe et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.findByKeyWithSwipe' and 'com.mobil.otomasyon.StepImpl.findByKeyWithSwipe'"}
+{"logLevel":"debug","message":"Found Swipe down until find element by {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.waitBySecond' and 'com.mobil.otomasyon.StepImpl.waitBySecond'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.waitBySecond' and 'com.mobil.otomasyon.StepImpl.waitBySecond'"}
+{"logLevel":"debug","message":"Found Wait {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.clickByKey' and 'com.mobil.otomasyon.StepImpl.clickByKey'"}
+{"logLevel":"debug","message":"Found Click element by {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.equalsTextByKey' and 'com.mobil.otomasyon.StepImpl.equalsTextByKey'"}
+{"logLevel":"debug","message":"Found Find element by {} and text equals {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.clickByKeyWithSwipe' and 'com.mobil.otomasyon.StepImpl.clickByKeyWithSwipe'"}
+{"logLevel":"debug","message":"Found Find element by {}  swipe and click in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.androidHomeButton' and 'com.mobil.otomasyon.StepImpl.androidHomeButton'"}
+{"logLevel":"debug","message":"Found Go To Android Home in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.swipe' and 'com.mobil.otomasyon.StepImpl.swipe'"}
+{"logLevel":"debug","message":"Found {} kere aşağıya kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.swipe' and 'com.mobil.otomasyon.StepImpl.swipe'"}
+{"logLevel":"debug","message":"Found Swipe times {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.closeIfExist' and 'com.mobil.otomasyon.StepImpl.closeIfExist'"}
+{"logLevel":"debug","message":"Found Check if element {} exist, then click. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.clickByText' and 'com.mobil.otomasyon.StepImpl.clickByText'"}
+{"logLevel":"debug","message":"Found Find element text equals {} and click in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.getElementWithKeyIfExists' and 'com.mobil.otomasyon.StepImpl.getElementWithKeyIfExists'"}
+{"logLevel":"debug","message":"Found Check if element {} exists in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.getElementWithKeyIfExists' and 'com.mobil.otomasyon.StepImpl.getElementWithKeyIfExists'"}
+{"logLevel":"debug","message":"Found Wait for element to load with key {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.getElementWithKeyIfExists' and 'com.mobil.otomasyon.StepImpl.getElementWithKeyIfExists'"}
+{"logLevel":"debug","message":"Found Element var mı kontrol et {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.getElementWithKeyIfExists' and 'com.mobil.otomasyon.StepImpl.getElementWithKeyIfExists'"}
+{"logLevel":"debug","message":"Found Elementin yüklenmesini bekle {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.existElement' and 'com.mobil.otomasyon.StepImpl.existElement'"}
+{"logLevel":"debug","message":"Found Check if {} element exist in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.doesExistElement' and 'com.mobil.otomasyon.StepImpl.doesExistElement'"}
+{"logLevel":"debug","message":"Found Does {} element Exist in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.swipeUntilFindTheElement' and 'com.mobil.otomasyon.StepImpl.swipeUntilFindTheElement'"}
+{"logLevel":"debug","message":"Found Swipe until find the element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.swipeUP' and 'com.mobil.otomasyon.StepImpl.swipeUP'"}
+{"logLevel":"debug","message":"Found {} kere yukarı doğru kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.swipeUP' and 'com.mobil.otomasyon.StepImpl.swipeUP'"}
+{"logLevel":"debug","message":"Found Swipe up times {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.ClearText' and 'com.mobil.otomasyon.StepImpl.ClearText'"}
+{"logLevel":"debug","message":"Found {} li elementi bul ve temizle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mobil.otomasyon.StepImpl.ClearText' and 'com.mobil.otomasyon.StepImpl.ClearText'"}
+{"logLevel":"debug","message":"Found Find element by {} and clear text in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tCheck if {} element exist : public void existElement(String key)"}
+{"logLevel":"debug","message":"\tFind element by {} and clear text : public void ClearText(String key)"}
+{"logLevel":"debug","message":"\tFind element by {} and text equals {} : public void equalsTextByKey(String key, String text)"}
+{"logLevel":"debug","message":"\tDoes {} element Exist : public void doesExistElement(String key)"}
+{"logLevel":"debug","message":"\tElement var mı kontrol et {} : public MobileElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\tSwipe until find the element {} : public void swipeUntilFindTheElement(String key) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitBySecond(ınt seconds)"}
+{"logLevel":"debug","message":"\t{} li elementi bul ve temizle : public void ClearText(String key)"}
+{"logLevel":"debug","message":"\tWait {} seconds : public void waitBySecond(ınt seconds)"}
+{"logLevel":"debug","message":"\tCheck if element {} exists : public MobileElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\tElementin yüklenmesini bekle {} : public MobileElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\tSwipe up times {} : public void swipeUP(ınt times) throws InterruptedException"}
+{"logLevel":"debug","message":"\tFind element text equals {} and click : public void clickByText(String text)"}
+{"logLevel":"debug","message":"\tWait for element to load with key {} : public MobileElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\tFind element by {}  swipe and click : public void clickByKeyWithSwipe(String key) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} li elementi bulana kadar swipe et : public void findByKeyWithSwipe(String key) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} kere aşağıya kaydır : public void swipe(ınt times) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} kere yukarı doğru kaydır : public void swipeUP(ınt times) throws InterruptedException"}
+{"logLevel":"debug","message":"\tCheck if element {} exist, then click. : public void closeIfExist(String key)"}
+{"logLevel":"debug","message":"\tFind element by {} and send keys {} : public void sendKeysByKey(String key, String text)"}
+{"logLevel":"debug","message":"\tClick element by {} : public void clickByKey(String key)"}
+{"logLevel":"debug","message":"\tGo To Android Home : public void androidHomeButton() throws InterruptedException"}
+{"logLevel":"debug","message":"\tSwipe times {} : public void swipe(ınt times) throws InterruptedException"}
+{"logLevel":"debug","message":"\tSwipe down until find element by {} : public void findByKeyWithSwipe(String key) throws InterruptedException"}
+!!!!!!!!!!!!!!!!!!!!!!!!!!!Test basliyor!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Eyl 20, 2021 3:43:14 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Does {} element Exist' using 'class com.mobil.otomasyon.StepImpl.doesExistElement"}
+element exists.
+{"logLevel":"debug","message":"Executing 'Go To Android Home' using 'class com.mobil.otomasyon.StepImpl.androidHomeButton"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_APPelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Does {} element Exist' using 'class com.mobil.otomasyon.StepImpl.doesExistElement"}
+element exists.
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_hesabimBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_emailBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Find element by {} and send keys {}' using 'class com.mobil.otomasyon.StepImpl.sendKeysByKey"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_psswrdBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Find element by {} and send keys {}' using 'class com.mobil.otomasyon.StepImpl.sendKeysByKey"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_loginBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Does {} element Exist' using 'class com.mobil.otomasyon.StepImpl.doesExistElement"}
+element exists.
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_hesapBilgilerimBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_cikisBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
+Trendyol_cikisYapBtnelementine tiklandi
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class com.mobil.otomasyon.StepImpl.waitBySecond"}
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class com.mobil.otomasyon.StepImpl.clickByKey"}
